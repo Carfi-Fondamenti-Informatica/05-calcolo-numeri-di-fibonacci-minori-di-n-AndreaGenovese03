@@ -13,8 +13,7 @@ int main() {
             b=a+c;
             if (a<=n){
                 cout << a << endl;
-        }else{
-                return 0;
-            }
         }
+        }
+    return 0;
 }
