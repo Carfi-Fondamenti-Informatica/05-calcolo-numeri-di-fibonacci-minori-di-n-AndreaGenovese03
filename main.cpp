@@ -2,18 +2,19 @@
 using namespace std;
 
 int main() {
-  
-   int a=1, b=1, c, n;
-    
+    int n;
     cin >> n;
 
-        for (int i=0; i<n; i++){
-            c=a;
-            a=b;
-            b=a+c;
-            if (a<=n){
-                cout << a << endl;
+        int a = 1;
+        int b = 1;
+        int c;
+
+        while (a<=n)
+        {
+            cout << a << endl;
+            c = a;
+            a = b;
+            b = a + c;
         }
-        }
-    return 0;
+   return 0;
 }
